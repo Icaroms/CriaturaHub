@@ -33,3 +33,20 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 
 **Energia (1-5):** 
 ```
+
+## Diário Oficial
+
+```
+## [2026-05-15] — Missão 0.B.1 — Sessão #1
+
+**Meta do dia:** Estudar 2h
+
+**O que fiz:** Criei código envolvendo variável e println
+
+**O que travou:** A princípio nada
+
+**O que entendi de novo:** sobre template de String
+
+**Próximo passo:** Estudar hoje mesmo a Missão 0.C.1
+
+**Energia (1-5): 3
