@@ -52,7 +52,7 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Energia (1-5): 3
 
 ```
-## [2026-05-15] — Missão 0.B.2 — Sessão #1
+## [2026-05-16] — Missão 0.B.2 — Sessão #1
 
 **Meta do dia:** Estudar 2h
 
@@ -64,4 +64,34 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 
 **Próximo passo:** Estudar hoje mesmo a Missão 0.C.1
 
-**Energia (1-5): 5
+**Energia (1-5): 4
+
+```
+## [2026-05-16] — Missão 0.C.1 — Sessão #2
+
+**Meta do dia:** Estudar 2h
+
+**O que fiz:** Modifiquei telas dentro do Android Studio
+
+**O que travou:** A princípio nada
+
+**O que entendi de novo:** Modificação de telas no android através de .xml
+
+**Próximo passo:** Estudar hoje mesmo a Missão 0.C.2
+
+**Energia (1-5): 4
+
+```
+## [2026-05-15] — Missão 0.C.1 — Sessão #2
+
+**Meta do dia:** Estudar 2h - [✓]
+
+**O que fiz:** Aprendi a utilizar kotlin dentro do Android Studio e modificação de String pelo kotlin
+
+**O que travou:** A princípio nada dentro do conteúdo, porém, não sabia a forma correta de retornar a String padrão do text
+
+**O que entendi de novo:** Modificação através de kotlin de texto, criação de id....
+
+**Próximo passo:** Relaxa no domingo...e retorna mais forte na segunda.
+
+**Energia (1-5): 3

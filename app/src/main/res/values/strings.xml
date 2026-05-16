@@ -2,4 +2,6 @@
     <string name="app_name">CriaturaHub - Guilda</string>
     <string name="boas_vindas">Bem-vindo à Guilda do Caçador!</string>
     <string name="patente_atual">Patente: Recruta</string>
+    <string name="saudacao">Bem-vindo, Caçador!</string>
+    <string name="botao_saudar">Saudar Guilda</string>
 </resources>
