@@ -50,3 +50,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Estudar hoje mesmo a Missão 0.C.1
 
 **Energia (1-5): 3
+
+```
+## [2026-05-15] — Missão 0.B.2 — Sessão #1
+
+**Meta do dia:** Estudar 2h
+
+**O que fiz:** Criei código envolvendo Funções e If/Else
+
+**O que travou:** A princípio nada
+
+**O que entendi de novo:** Sintaxe da Função e Formas de utilização do If/Else dentro da função
+
+**Próximo passo:** Estudar hoje mesmo a Missão 0.C.1
+
+**Energia (1-5): 5
