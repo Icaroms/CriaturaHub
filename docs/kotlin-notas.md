@@ -122,7 +122,7 @@ botaoSaudar.setOnClickListener {
     botaoSaudar.text = "Saudado!"
 }
 
-MISSÃO 0.B.2 - 19/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MISSÃO 1.C.1 - 19/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Os dois exercícios rodandando sem erro? [✓]
 2. Commit no repositório? [✓]
@@ -142,6 +142,47 @@ fun main() {
     for (nivel in niveis) {
         if (nivel > 30) {
             println("Nível alto detectado: $nivel")
+        }
+    }
+}
+
+MISSÃO 1.C.2 - 20/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Os dois exercícios rodandando sem erro? [✓]
+2. Commit no repositório? [✓]
+3. diario.md preenchido com template fixo? [✓]
+4. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+class  Item(val nome: String, val quantidade: Int)
+
+fun main() {
+    val pocao = Item("Poção", 5)
+    val pokebola = Item("Pokébola", 10)
+    val repelente = Item("Repelente", 2)
+
+    val mochila = listOf(pocao, pokebola, repelente)
+
+    for (item in mochila) {
+        println("${item.quantidade}x ${item.nome}")
+    }
+}
+----
+class Criaturas(val nome: String, val tipo: String, val nivel: Int)
+
+fun main() {
+    val snorlax = Criaturas("Snorlax", "Normal", 55)
+    val charizard = Criaturas("Charizard", "Fogo", 42)
+    val mewtwo = Criaturas("Mewtwo", "Psíquico", 62)
+    val cyndaquil = Criaturas("Cyndaquil", "Fogo", 8)
+    val lapras = Criaturas("Lapras", "Água", 33)
+
+    val capturadas = listOf(snorlax, charizard, mewtwo, cyndaquil, lapras)
+
+    for (c in capturadas) {
+        if (c.nivel > 30) {
+            println("${c.nome} (${c.tipo}) está pronta para batalha.")
         }
     }
 }

@@ -103,10 +103,25 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 
 **O que fiz:** Utilizei listOf, mutableListOf e sobre for-in
 
-**O que travou:** A princípio nada
+**O que travou:** A princípio nada, porém devo praticar sobre listOf e mutableListOf
 
 **O que entendi de novo:** List<TIPO>, listOf, mutableListOf e for-in
 
 **Próximo passo:** Seguir para 1.A.2
+
+**Energia (1-5): 5
+
+```
+## [2026-05-20] — Missão 1.A.2 — Sessão #2
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Criei classes simples
+
+**O que travou:** A princípio nada, porém devo praticar nomenclatura
+
+**O que entendi de novo:** entendi sobre criação de classe e instância, também sobre utilização de propriedades
+
+**Próximo passo:** Seguir para 1.B.1
 
 **Energia (1-5): 5
