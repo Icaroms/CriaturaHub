@@ -95,3 +95,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Relaxa no domingo...e retorna mais forte na segunda.
 
 **Energia (1-5): 3
+
+```
+## [2026-05-19] — Missão 1.A.1 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Utilizei listOf, mutableListOf e sobre for-in
+
+**O que travou:** A princípio nada
+
+**O que entendi de novo:** List<TIPO>, listOf, mutableListOf e for-in
+
+**Próximo passo:** Seguir para 1.A.2
+
+**Energia (1-5): 5

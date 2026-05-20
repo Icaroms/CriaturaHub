@@ -94,10 +94,11 @@ fun main() {
 
 MISSÃO 0.B.2 - 16/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Os dois exercícios foram resolvidos e executados sem erro no playground? [✓]
-2. Commit feito no repositório CriaturaHub - pode ser um arquivo docs/kotlin-notas.md com os trechos resolvidos [✓]
-2. Diário.md preenchido com os templates de 5 linhas, energia anotada [✓]
-2. Próximo passo registrado no diário: "Começar missão 0.C.1, Anatomia de Projeto Android [✓]
+1. O app roda no emulador, mostra TextView e Button, e o Button modifica o texto ao ser clicado? [✓]
+2. Os dois exercícios foram aplicados - segundo botão "Restar" funcional e o primeiro botão mudando o próprio texto? [✓]
+3. Commit grande no repositório? [✓]
+4. diario.md preenchido - energia anotada com honestidade. Está é a quarta sessão de estudo em dois dias; a nota de energia importa especialmente hoje para acompanhamento. ? [✓]
+5. Próximo passo registrado no diário: "Relaxa no domingo...e retorna mais forte na segunda para Missão 1.A.1 - List<T> em kotlin, abertura da Fase 1 [✓]
 
 =============================== Código do Exercício ===========================================================================================================================================
 
@@ -119,4 +120,28 @@ botaoReset.setOnClickListener {
 botaoSaudar.setOnClickListener {
     texto.text = "Bem-vindo, Caçador!"
     botaoSaudar.text = "Saudado!"
+}
+
+MISSÃO 0.B.2 - 19/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Os dois exercícios rodandando sem erro? [✓]
+2. Commit no repositório? [✓]
+3. diario.md preenchido com template fixo? [✓]
+4. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+fun main() {
+    val tipos = listOf("Grama", "Fogo", "Água", "Elétrico")
+
+    println("A Guilda conhece ${tipos.size} tipos.")
+    for (tipo in tipos) {println("Tipo descoberto: $tipo")}
+
+    val niveis = listOf(15, 42, 8, 67, 30, 55)
+
+    for (nivel in niveis) {
+        if (nivel > 30) {
+            println("Nível alto detectado: $nivel")
+        }
+    }
 }
