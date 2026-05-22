@@ -125,3 +125,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.B.1
 
 **Energia (1-5): 5
+
+```
+## [2026-05-20] — Missão 1.B.1 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Entendi sofre o funcionamento do RecyclerView
+
+**O que travou:** A princípio, nada
+
+**O que entendi de novo:** Entendi exatamente como funciona o RecyclerView e porque app de rolagem não sobrecarregam o celular
+
+**Próximo passo:** Seguir para 1.B.2
+
+**Energia (1-5): 5

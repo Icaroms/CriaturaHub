@@ -186,3 +186,22 @@ fun main() {
         }
     }
 }
+
+MISSÃO 1.B.1 - 21/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Os dois exercícios respondido no diário? [✓]
+2. Commit no repositório? [✓]
+3. diario.md preenchido com notas de energia? [✓]
+4. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1) Qual é qual:
+    1. Saber qual a lista tem 1000 criaturas: Adapter
+    2. Seguras os TextView de uma única linha da lista: ViewHolder
+    3. Decidir se a lista aparece como coluna única ou grade de duas colunas: LayoutManager
+    4. Gerenciar a rolagem e reaproveitar as molduras que saem da tela: RecyclerView
+    5. Pegar a criatura da posição 13 e colocar os dados dela numa moldura: adapter?
+
+2) Exemplos do dia-a-dia sobre reciclagem:
+    Eu gosto de action figure, e muitos desses bonecos tem peças quase sempre reaproveitadas, por exemplo, imagine a dificuldade e o gasto em modelar 1000 personagens únicos, sendo que muitos tem formatos iguais, apenas detalhes diferentes, então é mais fácil ter 10 modelos de partes diferentes e montar um personagem único com essas partes reaproveitadas, economizando custos(acredito que isso seja um bom exemplo, talvez)
