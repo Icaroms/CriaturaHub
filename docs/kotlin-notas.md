@@ -205,3 +205,26 @@ MISSÃO 1.B.1 - 21/05/2026 -----------------------------------------------------
 
 2) Exemplos do dia-a-dia sobre reciclagem:
     Eu gosto de action figure, e muitos desses bonecos tem peças quase sempre reaproveitadas, por exemplo, imagine a dificuldade e o gasto em modelar 1000 personagens únicos, sendo que muitos tem formatos iguais, apenas detalhes diferentes, então é mais fácil ter 10 modelos de partes diferentes e montar um personagem único com essas partes reaproveitadas, economizando custos(acredito que isso seja um bom exemplo, talvez)
+
+MISSÃO 1.B.2 - 21/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Os dois exercícios aplicados no item_criatura.xml, conferidos no preview? [✓]
+2. Commit no repositório? [✓]
+3. diario.md preenchido com notas de energia? [✓]
+4. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+<TextView
+    android:id="@+id/textNivel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nível 0"
+    android:textSize="14sp"
+    android:textColor="#6B4A1F"
+    android:layout_marginTop="4dp" />
+
+Alterações no código:
+1. android:padding="20dp"> 
+2. android:textSize="20sp" 3. android:textColor="
+#6B8E2E"
