@@ -155,3 +155,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.B.3
 
 **Energia (1-5): 4
+
+```
+## [2026-05-22] — Missão 1.B.3 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Montei a estrutura visual com as criaturas na tela android
+
+**O que travou:** Travei em um erro no código .xml, que me fez pedir ajuda ao claude
+
+**O que entendi de novo:** Como funciona os métodos da criação da lista e o reaproveitamento da moldura(ViewHolder)
+
+**Próximo passo:** Seguir para 1.B.4
+
+**Energia (1-5): 5

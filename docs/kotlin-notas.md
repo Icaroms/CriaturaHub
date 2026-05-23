@@ -228,3 +228,27 @@ Alterações no código:
 1. android:padding="20dp"> 
 2. android:textSize="20sp" 3. android:textColor="
 #6B8E2E"
+
+MISSÃO 1.B.3 - 22/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. A Lista de 5 criaturas rodando no emulador(marco mínimo de hoje) [✓]
+2. Os dois exercícios aplicados, se a energia segurou. se não, ficam pra consolidação [✓]
+3. commit feito? [✓]
+4. diário feito as anotações? [✓]
+4. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. 
+Criatura("Charizard", "Fogo", 48),
+Criatura("Mewtwo", "Psíquico", 60),
+Criatura("Cyndaquil", "Fogo", 8),
+Criatura("Togepi", "Normal", 11)
+
+- Adição de mais criaturas, para que fosse possível enxergar a rolagem
+
+2. 
+holder.textTipo.text = "Tipo: ${criatura.tipo}"
+holder.textNivel.text = "Lv. ${criatura.nivel}"
+
+- Ajuste do texto

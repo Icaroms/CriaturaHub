@@ -1,35 +1,31 @@
 package br.com.icaroms.criaturahub
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-        val texto = findViewById<TextView>(R.id.textoBoasVindas)
-        val botaoSaudar = findViewById<Button>(R.id.botaoSaudacao)
-        val botaoReset = findViewById<Button>(R.id.botaoReset)
 
-        botaoSaudar.setOnClickListener {
-            texto.text = getString(R.string.saudacao)
-            botaoSaudar.text = "Saudado!"
-        }
+        val criaturas = listOf(
+            Criatura("Bulbasaur", "Grama", 5),
+            Criatura("Chamander", "Fogo", 8),
+            Criatura("Squirtle", "Água", 6),
+            Criatura("Pikachu", "Elétrico", 12),
+            Criatura("Snorlax", "Normal", 30),
+            Criatura("Charizard", "Fogo", 48),
+            Criatura("Mewtwo", "Psíquico", 60),
+            Criatura("Cyndaquil", "Fogo", 8),
+            Criatura("Togepi", "Normal", 11)
+        )
 
-        botaoReset.setOnClickListener {
-            texto.text = getString(R.string.patente_atual)
-            botaoSaudar.text = getString(R.string.botao_saudar)
-        }
+        val recycler = findViewById<RecyclerView>(R.id.recyclerCriaturas)
+        recycler.layoutManager = LinearLayoutManager(this)
+        recycler.adapter = CriaturaAdapter(criaturas)
     }
 }
