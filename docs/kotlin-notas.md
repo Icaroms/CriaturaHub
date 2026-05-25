@@ -252,3 +252,29 @@ holder.textTipo.text = "Tipo: ${criatura.tipo}"
 holder.textNivel.text = "Lv. ${criatura.nivel}"
 
 - Ajuste do texto
+
+MISSÃO 1.B.3 - 22/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Item da lista com dois textos, espaçamento e divisor rodando no emulador [✓]
+2. commit feito? [✓]
+3. diário feito as anotações? [✓]
+4. Exercícios Feitos? [✓]
+5. roadmap.md atualizado ? [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+item_criatura.xml:
+
+android:id="@+id/textTipo"
+android:text="Tipo: "
+
+Criatura.kt:
+class Criatura(val nome: String, val tipo: String)
+
+MainActivity:
+val criaturas = listOf(
+            Criatura("Bulbasaur", "Grama"))
+
+CriaturaAdapter.kt:
+        val textNumero: TextView = itemView.findViewById(R.id.textTipo)
+        holder.textNumero.text = "Tipo: ${criatura.tipo}"

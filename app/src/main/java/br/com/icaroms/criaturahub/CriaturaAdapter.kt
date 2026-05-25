@@ -6,13 +6,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class CriaturaAdapter(private val criaturas: List<Criatura>) :
+class CriaturaAdapter(private val listaDeCriaturas: List<Criatura>) :
         RecyclerView.Adapter<CriaturaAdapter.CriaturaViewHolder>() {
 
     class CriaturaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val textNome: TextView = itemView.findViewById(R.id.textNome)
-        val textTipo: TextView = itemView.findViewById(R.id.textTipo)
-        val textNivel: TextView = itemView.findViewById(R.id.textNivel)
+        val textNumero: TextView = itemView.findViewById(R.id.textTipo)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : CriaturaViewHolder {
@@ -21,13 +20,12 @@ class CriaturaAdapter(private val criaturas: List<Criatura>) :
     }
 
     override fun onBindViewHolder(holder: CriaturaViewHolder, position: Int) {
-        val criatura = criaturas[position]
+        val criatura = listaDeCriaturas[position]
         holder.textNome.text = criatura.nome
-        holder.textTipo.text = "Tipo: ${criatura.tipo}"
-        holder.textNivel.text = "Lv. ${criatura.nivel}"
+        holder.textNumero.text = "Tipo: ${criatura.tipo}"
     }
 
     override fun getItemCount(): Int {
-        return criaturas.size
+        return listaDeCriaturas.size
     }
 }

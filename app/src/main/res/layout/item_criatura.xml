@@ -3,32 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/textNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome da Criatura"
-        android:textSize="20sp"
-        android:textColor="#2D2418"/>
+        android:text="Bulbasaur"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2d2418"/>
 
     <TextView
         android:id="@+id/textTipo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipo"
+        android:text="Tipo: "
         android:textSize="14sp"
-        android:textColor="#6B8E2E"
-        android:layout_marginTop="4dp" />
-
-    <TextView
-        android:id="@+id/textNivel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nível 0"
-        android:textSize="14sp"
-        android:textColor="#6B4A1F"
+        android:textColor="#8b7355"
         android:layout_marginTop="4dp" />
 
 </LinearLayout>

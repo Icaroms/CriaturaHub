@@ -3,6 +3,7 @@ package br.com.icaroms.criaturahub
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -13,19 +14,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val criaturas = listOf(
-            Criatura("Bulbasaur", "Grama", 5),
-            Criatura("Chamander", "Fogo", 8),
-            Criatura("Squirtle", "Água", 6),
-            Criatura("Pikachu", "Elétrico", 12),
-            Criatura("Snorlax", "Normal", 30),
-            Criatura("Charizard", "Fogo", 48),
-            Criatura("Mewtwo", "Psíquico", 60),
-            Criatura("Cyndaquil", "Fogo", 8),
-            Criatura("Togepi", "Normal", 11)
+            Criatura("Bulbasaur", "Grama"),
+            Criatura("Chamander", "Fogo"),
+            Criatura("Squirtle", "Água"),
+            Criatura("Pikachu", "Elétrico"),
+            Criatura("Snorlax", "Normal"),
+            Criatura("Charizard", "Fogo"),
+            Criatura("Mewtwo", "Psíquico"),
+            Criatura("Cyndaquil", "Fogo"),
+            Criatura("Togepi", "Normal")
         )
 
-        val recycler = findViewById<RecyclerView>(R.id.recyclerCriaturas)
-        recycler.layoutManager = LinearLayoutManager(this)
-        recycler.adapter = CriaturaAdapter(criaturas)
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerCriaturas)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = CriaturaAdapter(criaturas)
+
+        val divisor = DividerItemDecoration(
+            recyclerView.context,
+            DividerItemDecoration.VERTICAL
+        )
+
+        recyclerView.addItemDecoration(divisor)
     }
 }
