@@ -170,3 +170,33 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.B.4
 
 **Energia (1-5): 5
+
+```
+## [2026-05-25] — Missão 1.B.4 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Configurei parte do ViewHolder e o XML para ficar mais agradável
+
+**O que travou:** Travei em um momento em que o código .text perdia um charSequence, porei estava colocando um valor Int, era necessário utilizar criatura.numero.toString()
+
+**O que entendi de novo:** Configurações de layout e adição de divisória no layout através do RecyclerView
+
+**Próximo passo:** Seguir para 1.C.1
+
+**Energia (1-5): 5
+
+```
+## [2026-05-25] — Missão 1.C.1 — Sessão #2
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Obtive conhecimento sobre o activities e fragments e seu funcionamento, e principalmente sobre o single-activity
+
+**O que travou:** A princípio, nada
+
+**O que entendi de novo:** Entendi sobre single-activity, e seus nav's
+
+**Próximo passo:** Seguir para 1.C.2
+
+**Energia (1-5): 4

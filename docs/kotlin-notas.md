@@ -253,7 +253,7 @@ holder.textNivel.text = "Lv. ${criatura.nivel}"
 
 - Ajuste do texto
 
-MISSÃO 1.B.3 - 22/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MISSÃO 1.B.4 - 25/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Item da lista com dois textos, espaçamento e divisor rodando no emulador [✓]
 2. commit feito? [✓]
@@ -278,3 +278,15 @@ val criaturas = listOf(
 CriaturaAdapter.kt:
         val textNumero: TextView = itemView.findViewById(R.id.textTipo)
         holder.textNumero.text = "Tipo: ${criatura.tipo}"
+
+MISSÃO 1.C.1 - 25/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Diário de campo preenchido com a nota de energia da sessão [✓]
+2. resposta da Reflexão anotadas (ajudam a 1.C.2 a começar mais rápido) [✓]
+3. Commit [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+Moldura e Quadro 1. Moldura Séria: 1. Interface 2. Botões 2. Quadro Séria: 1. Criaturas/Capturadas 2. Dados(Treinador/Criatura) *Incorreto*
+Activities é uma entidade muitp pesada, gerenciado pelo S.O. do próprio android, e ter vários seria extremamente problático futuramente
+Configuração: Nav Graph, Execução: Nav Controller
