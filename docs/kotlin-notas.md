@@ -290,3 +290,15 @@ MISSÃO 1.C.1 - 25/05/2026 -----------------------------------------------------
 Moldura e Quadro 1. Moldura Séria: 1. Interface 2. Botões 2. Quadro Séria: 1. Criaturas/Capturadas 2. Dados(Treinador/Criatura) *Incorreto*
 Activities é uma entidade muitp pesada, gerenciado pelo S.O. do próprio android, e ter vários seria extremamente problático futuramente
 Configuração: Nav Graph, Execução: Nav Controller
+
+MISSÃO 1.C.2 - 26/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. App roda e mostra a lista, agora servida pelo ListaFragment via NavHost [✓]
+2. Commit [✓]
+3. Diário preenchido [✓]
+4. Exercícios resolvidos [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. android:label="Criaturas da Guilda"
+2. 1.onCreateView 2.onViewCreated 3.onViewCreated 4.onCreateView

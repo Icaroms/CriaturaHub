@@ -200,3 +200,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.C.2
 
 **Energia (1-5): 4
+
+```
+## [2026-05-26] — Missão 1.C.2 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Fiz a criação da tela de fragment e seu funcionamento
+
+**O que travou:** Basicamente em tudo
+
+**O que entendi de novo:** Criação de telas e configuração de fragment
+
+**Próximo passo:** Seguir para 1.C.3
+
+**Energia (1-5): 4
