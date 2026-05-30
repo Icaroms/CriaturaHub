@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
     app:startDestination="@id/listaFragment">
@@ -7,5 +8,23 @@
     <fragment
         android:id="@+id/listaFragment"
         android:name="br.com.icaroms.criaturahub.ListaFragment"
-        android:label="Criaturas da Guilda" />
+        android:label="Catálogos" >
+
+        <!-- A 'action é a seta no mapa: de onde sai, pra onde vai. -->
+        <action
+            android:id="@+id/action_lista_to_detalhe"
+            app:destination="@id/detalheFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detalheFragment"
+        android:name="br.com.icaroms.criaturahub.DetalheFragment"
+        android:label="Detalhe">
+
+        <!-- O 'argument' declara o que essa tela espera receber. -->
+    <argument
+        android:name="nomeCriatura"
+        app:argType="string" />
+    </fragment>
+
 </navigation>

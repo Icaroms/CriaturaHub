@@ -215,3 +215,16 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.C.3
 
 **Energia (1-5): 4
+## [2026-05-27] — Missão 1.C.3 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Fiz funciona as telas de fragment, ao clicar em uma criatura
+
+**O que travou:** Acabei travando em algumas coisas
+
+**O que entendi de novo:** Como funciona o clique e o retorno, principalmente como funciona ação ao clicar em elementos
+
+**Próximo passo:** Seguir para 1.D.1
+
+**Energia (1-5): 4

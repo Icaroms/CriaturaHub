@@ -302,3 +302,22 @@ MISSÃO 1.C.2 - 26/05/2026 -----------------------------------------------------
 
 1. android:label="Criaturas da Guilda"
 2. 1.onCreateView 2.onViewCreated 3.onViewCreated 4.onCreateView
+
+MISSÃO 1.C.3 - 27/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. App roda, lista aparece, toque numa criatura abre o detalhe, botão "voltar" retorna para lista.[✓]
+2. Commit [✓]
+3. Diário preenchido [✓]
+4. Exercícios resolvidos [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. não entendi como faço o teste de criatura desconhecida no Elvis
+val nomeRecebido = arguments?.getString("nomeCriatura") ?: "Criatura Desconhecida"
+
+2. 
+Toast.makeText(requireContext(), "Tocou em ${criaturaClicada.nome}", Toast.LENGTH_SHORT).show()
+
+// Pega o NavController e dispara a action lista -> detalhe.
+findNavController().navigate(
+    R.id.action_lista_to_detalhe, argumentos)

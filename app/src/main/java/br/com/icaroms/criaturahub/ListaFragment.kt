@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -45,6 +47,23 @@ class ListaFragment : Fragment() {
 
         val recycler = view.findViewById<RecyclerView>(R.id.recyclerCriaturas)
         recycler.layoutManager = LinearLayoutManager(requireContext())
-        recycler.adapter = CriaturaAdapter(criaturas)
+
+        // MUDANÇA: passar a lambda `aoClicar` como segundo parâametro do Adapter.
+        recycler.adapter = CriaturaAdapter(criaturas) {criaturaClicada ->
+            // Está é a lambda. Roda toda vez que o Adapter chamar ao Clicar(...).
+            // 'criaturaClicada' é o argumento que Adapter passou(uma Criatura).
+
+            // Empacota o nome num Bundle, do jeito que o nav graph espera.
+            val argumentos = Bundle().apply {
+                putString("nomeCriatura", criaturaClicada.nome)
+            }
+
+            Toast.makeText(requireContext(), "Tocou em ${criaturaClicada.nome}", Toast.LENGTH_SHORT).show()
+
+            // Pega o NavController e dispara a action lista -> detalhe.
+            findNavController().navigate(
+                R.id.action_lista_to_detalhe, argumentos
+            )
+        }
     }
 }

@@ -1,7 +1,7 @@
 // Pai com função GENÉRICA, marcada como 'open'
 open class Animal(val nome: String) {
     // 'open fun' = 'filhas podem sobrescrever esta função'
-    fun fazerSom() {
+    open fun fazerSom() {
         println("$nome faz algum som genérico")
     }
 }

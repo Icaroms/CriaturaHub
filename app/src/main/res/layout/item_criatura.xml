@@ -23,4 +23,13 @@
         android:textColor="#8b7355"
         android:layout_marginTop="4dp" />
 
+    <TextView
+        android:id="@+id/textNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nível: "
+        android:textSize="14sp"
+        android:textColor="#0b7355"
+        android:layout_marginTop="4dp" />
+
 </LinearLayout>
