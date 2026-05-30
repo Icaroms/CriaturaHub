@@ -215,6 +215,8 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.C.3
 
 **Energia (1-5): 4
+
+```
 ## [2026-05-27] — Missão 1.C.3 — Sessão #1
 
 **Meta do dia:** Estudar 1h - [✓]
@@ -228,3 +230,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.D.1
 
 **Energia (1-5): 4
+
+```
+## [2026-05-29] — Missão 1.D.1 — Sessão #2
+
+**Meta do dia:** Estudar 2h - [✓]
+
+**O que fiz:** Pratiquei com data class
+
+**O que travou:** a princípio, nada
+
+**O que entendi de novo:** Funcionamento do data class e do copy()
+
+**Próximo passo:** Seguir para 1.D.2
+
+**Energia (1-5): 3

@@ -35,12 +35,12 @@ Objetivo: ambiente pronto, Kotlin mínimo, primeiro app rodando.
 - [✓] **0.A.1** — Android Studio, JDK 21, emulador, Git, repo `criaturahub` criado
 
 ### Capítulo 0.B — Primeiras palavras de Kotlin
-- [ ] **0.B.1** — `val`, `var`, tipos básicos, inferência, templates, `println` · **sex 15/05**
-- [ ] **0.B.2** — Funções (declaração, parâmetros, retorno), `if/else` como comando e expressão · **seg 18/05**
+- [✓] **0.B.1** — `val`, `var`, tipos básicos, inferência, templates, `println` · **sex 15/05**
+- [✓] **0.B.2** — Funções (declaração, parâmetros, retorno), `if/else` como comando e expressão · **seg 18/05**
 
 ### Capítulo 0.C — Primeiro pergaminho na tela
-- [ ] **0.C.1** — Anatomia de projeto Android, primeira modificação no app · **ter 19/05**
-- [ ] **0.C.2** — "Olá, Guilda": tela com TextView e Button reativo · **qui 21/05**
+- [✓] **0.C.1** — Anatomia de projeto Android, primeira modificação no app · **ter 19/05**
+- [✓] **0.C.2** — "Olá, Guilda": tela com TextView e Button reativo · **qui 21/05**
 
 **Marco fim Fase 0:** app rodando no emulador, código no Git, Kotlin básico na mão.
 
@@ -52,22 +52,22 @@ Objetivo: ambiente pronto, Kotlin mínimo, primeiro app rodando.
 Objetivo: app que consome PokéAPI, mostra lista com imagens, navega pra detalhe.
 
 ### Capítulo 1.A — Listas e classes
-- [ ] **1.A.1** — `List<T>`: criar, acessar, iterar com `for`, no Playground · **sex 22/05**
-- [ ] **1.A.2** — Classes simples com construtor primário · **seg 25/05**
+- [✓] **1.A.1** — `List<T>`: criar, acessar, iterar com `for`, no Playground · **sex 22/05**
+- [✓] **1.A.2** — Classes simples com construtor primário · **seg 25/05**
 
 ### Capítulo 1.B — Mostrando lista na tela
-- [ ] **1.B.1** — Conceito de RecyclerView, Adapter, ViewHolder · **ter 26/05**
-- [ ] **1.B.2** — Layout XML do item da lista · **qui 28/05**
-- [ ] **1.B.3** — Adapter mínimo com lista hardcoded de 5 criaturas · **sex 29/05**
-- [ ] **1.B.4** — Polir item: dois TextViews, espaçamento, divisor · **seg 01/06**
+- [✓] **1.B.1** — Conceito de RecyclerView, Adapter, ViewHolder · **ter 26/05**
+- [✓] **1.B.2** — Layout XML do item da lista · **qui 28/05**
+- [✓] **1.B.3** — Adapter mínimo com lista hardcoded de 5 criaturas · **sex 29/05**
+- [✓] **1.B.4** — Polir item: dois TextViews, espaçamento, divisor · **seg 01/06**
 
 ### Capítulo 1.C — Tela de detalhe
-- [ ] **1.C.1** — Activity vs Fragment, Navigation Component (alto nível) · **ter 02/06**
-- [ ] **1.C.2** — Setup Navigation, primeira tela migrada para Fragment · **qui 04/06**
-- [ ] **1.C.3** — Click na lista navega para detalhe com argumento · **sex 05/06**
+- [✓] **1.C.1** — Activity vs Fragment, Navigation Component (alto nível) · **ter 02/06**
+- [✓] **1.C.2** — Setup Navigation, primeira tela migrada para Fragment · **qui 04/06**
+- [✓] **1.C.3** — Click na lista navega para detalhe com argumento · **sex 05/06**
 
 ### Capítulo 1.D — Conexão com a Guilda Antiga (PokéAPI)
-- [ ] **1.D.1** — `data class` e `copy` modelando resposta JSON · **seg 08/06**
+- [✓] **1.D.1** — `data class` e `copy` modelando resposta JSON · **seg 08/06**
 - [ ] **1.D.2** — Corrotinas básicas: `suspend`, `launch`, conceito de "código que demora" · **ter 09/06**
 - [ ] **1.D.3** — Retrofit: setup, primeiro GET com Log · **qui 11/06**
 - [ ] **1.D.4** — `ViewModel` e `StateFlow` (apresentando **MVVM** por nome) · **sex 12/06**

@@ -321,3 +321,22 @@ Toast.makeText(requireContext(), "Tocou em ${criaturaClicada.nome}", Toast.LENGT
 // Pega o NavController e dispara a action lista -> detalhe.
 findNavController().navigate(
     R.id.action_lista_to_detalhe, argumentos)
+
+MISSÃO 1.D.1 - 30/05/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Criatura.kt virou data class e o app roda igual? [✓]
+2. Commit [✓]
+3. Diário preenchido [✓]
+4. Exercícios resolvidos [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. não entendi como faço o teste de criatura desconhecida no Elvis
+val nomeRecebido = arguments?.getString("nomeCriatura") ?: "Criatura Desconhecida"
+
+2. 
+Toast.makeText(requireContext(), "Tocou em ${criaturaClicada.nome}", Toast.LENGTH_SHORT).show()
+
+// Pega o NavController e dispara a action lista -> detalhe.
+findNavController().navigate(
+    R.id.action_lista_to_detalhe, argumentos)
