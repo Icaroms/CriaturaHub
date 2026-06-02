@@ -340,3 +340,44 @@ Toast.makeText(requireContext(), "Tocou em ${criaturaClicada.nome}", Toast.LENGT
 // Pega o NavController e dispara a action lista -> detalhe.
 findNavController().navigate(
     R.id.action_lista_to_detalhe, argumentos)
+
+MISSÃO 1.D.1 - 01/06/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Os dois exercícios rodaram e tu entendeu a ordem da saída? [✓]
+2. Commit [✓]
+3. Diário preenchido [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. import kotlinx.coroutines.*
+
+// Nossa própria função que "demora"; Precisa de suspend porque chama delay
+suspend fun procurarCriatura(nome: String, demora: Long) {
+
+    delay(demora) // Finge o tempo de resposta da PokéAPI
+
+    println("$nome" + " chegou da Guilda Antiga")
+}
+
+fun mains() = runBlocking {
+    println("Início da busca")
+    launch { procurarCriatura("Charmander", 1000)} // dispara uma corrotina e NÃO espera ela terminar
+    launch { procurarCriatura("Squirtle", 500)} // dispara outra; as duas correm ao mesmo tempo
+    launch { procurarCriatura("Pikachu", 1500)}
+    println("Pedidos enviados, esperando respostas...")
+}
+
+2. import kotlinx.coroutines.*
+
+suspend fun forjarItem(nome: String) {
+
+    delay(8000)
+    println("Item Forjado: $nome")
+}
+
+fun main() = runBlocking {
+    println("Iniciando Forja...")
+    launch {forjarItem("Escudo de Radamanthys")}
+    launch {forjarItem("Excalibur")}
+    println("Item sendo Forjado...Brasas esquentando...")
+}

@@ -41,7 +41,7 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 
 **Meta do dia:** Estudar 2h
 
-**O que fiz:** Criei código envolvendo variável e println
+**O que fiz:** Criei código envolvendo variável e println e acertei o resultado que iria sair, era fácil.
 
 **O que travou:** A princípio nada
 
@@ -245,3 +245,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.D.2
 
 **Energia (1-5): 3
+
+```
+## [2026-06-01] — Missão 1.D.2 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Estudei sobre corrotina de forma pratica
+
+**O que travou:** a princípio, nada
+
+**O que entendi de novo:** Funcionamento de Corrotina, runBlocking{}, suspend, launch e etc...
+
+**Próximo passo:** Seguir para 1.D.3
+
+**Energia (1-5): 5
