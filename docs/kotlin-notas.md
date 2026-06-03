@@ -381,3 +381,15 @@ fun main() = runBlocking {
     launch {forjarItem("Excalibur")}
     println("Item sendo Forjado...Brasas esquentando...")
 }
+
+MISSÃO 1.D.1 - 01/06/2026 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. O Logcat mostrou as criaturas reais chegando(Rodou e viu com os próprios olhos)? [✓]
+2. Commit [✓]
+3. Diário preenchido [✓]
+
+=============================== Código do Exercício ===========================================================================================================================================
+
+1. @GET("pokemon?limit=5") // Faz GET nesse caminho, colado na baseUrl
+
+2. Log.d("CriaturaHub", "URL: " + resposta.results[0].url)

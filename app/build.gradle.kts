@@ -46,4 +46,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+    // Retrofit: Faz as chamadas HTTP por você
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    // Converter Gson: traduz JSON < objeto Kotlin automaticamente
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 }

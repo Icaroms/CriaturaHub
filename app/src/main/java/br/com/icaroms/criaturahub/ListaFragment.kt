@@ -1,14 +1,19 @@
 package br.com.icaroms.criaturahub
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.coroutines.launch
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class ListaFragment : Fragment() {
 
@@ -22,6 +27,24 @@ class ListaFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // 1) Monta o Retrofit - a "Fábrica" que constrói o contrato
+        val retrofit = Retrofit.Builder()
+            .baseUrl("https://pokeapi.co/api/v2/") // Endereço base; o @GET gruda aqui
+            .addConverterFactory(GsonConverterFactory.create()) // usa Gson para traduzir o JSON
+            .build()
+
+        // 2) Pede para o Retrofit implementar o contrato PokeApi
+        val api = retrofit.create(PokeApi::class.java)
+
+        // 3) Dispara a chamada numa corrotina (igual ao launch da 1.D.2)
+        lifecycleScope.launch {
+            val resposta = api.listarCriaturas() // AQUI a corrotina suspende e espera a rede
+
+            Log.d("CriaturaHub", "Recebi " + resposta.results.size + " criaturas")
+            Log.d("CriaturaHub", "Primeira: " + resposta.results[0].name)
+            Log.d("CriaturaHub", "URL: " + resposta.results[0].url)
+        }
 
         val criaturas = listOf(
             Criatura("Snorlax", "Normal", 22),

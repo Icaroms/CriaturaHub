@@ -260,3 +260,18 @@ Preenchido no bloco Pós-estudo do ritual — não pular.
 **Próximo passo:** Seguir para 1.D.3
 
 **Energia (1-5): 5
+
+```
+## [2026-06-01] — Missão 1.D.2 — Sessão #1
+
+**Meta do dia:** Estudar 1h - [✓]
+
+**O que fiz:** Fiz a chamada da API dentro do Android
+
+**O que travou:** a princípio, nada
+
+**O que entendi de novo:** Como fazer a chamada dentro do android
+
+**Próximo passo:** Seguir para 1.D.4
+
+**Energia (1-5): 5
